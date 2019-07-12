@@ -1,3 +1,19 @@
+> This is not my work! I only made few changes to be able to compile on my Solus Distribution. All credits to [mkottman](https://github.com/mkottman/acpi_call)
+
+# Steps to compile on SolusOS
+```
+$ sudo make
+$ sudo make install
+```
+
+You will need to make this for every Kernel update!
+
+[Thank you fellow redditor!](https://www.reddit.com/r/SolusProject/comments/7hxsfn/compiling_acpi_call/dqv4t4u?utm_source=share&utm_medium=web2x)
+
+______
+
+# Original Readme file
+
 A kernel simple module that enables you to call ACPI methods by writing the
 method name followed by arguments to `/proc/acpi/call`.
 
